@@ -3,6 +3,7 @@
     --green: #18453b;
     --whitetext: ghostwhite;
     --whitebackground: ghostwhite;
+    --sidebar: 150px;
 }
 
 * {
@@ -58,6 +59,11 @@ p {
     font-size: 16px;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
 /* adding in a decorcative top photo*/
 .ianh {
     height: 400px;
@@ -68,8 +74,46 @@ p {
     background-position: center;
 }
 
+.aboutme {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme h2 {
+    width: var(--sidebar);
+}
+
+.aboutme p {
+    border-left: 3px var(--green) solid;
+    padding-left: 10px;
+}
+
+/* styling for projects list */
+.projects-list {
+    flex: 4;
+    background-color: (var(--whitebackground));
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  .project {
+    border-style: solid;
+    border-color: var(--green);
+    border-width: 10px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+  }
+
+  .project img {
+      width: 100%;
+  }
+
 /* adding responsive element to adjust content based on screen size */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .header {
       flex-direction: column;
     }
