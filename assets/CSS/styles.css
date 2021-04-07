@@ -1,3 +1,10 @@
+/* adding variables for consistent color scheme */
+:root {
+    --green: #18453b;
+    --whitetext: ghostwhite;
+    --whitebackground: ghostwhite;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,16 +12,17 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: var(--whitebackground);
 }
 
 /* formatting for header with my name and nav links*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #18453b;
-    color: #ffffff;
+    background-color: var(--green);
+    color: var(--whitetext);
     display: inline-flex;
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
 }
@@ -42,10 +50,29 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--whitetext);
     text-decoration: none;
 }
 
 p {
     font-size: 16px;
 }
+
+/* adding in a decorcative top photo*/
+.ianh {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Images/traversebay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* adding responsive element to adjust content based on screen size */
+@media screen and (max-width: 767px) {
+    .header {
+      flex-direction: column;
+    }
+    .ianh {
+        display: none;
+    }
