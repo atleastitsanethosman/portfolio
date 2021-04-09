@@ -19,7 +19,7 @@ body {
 h3 {
     width: var(--sidebar);
     text-align: right;
-    padding: 10px;    
+    margin: 25px;
 }
 
 /* formatting for header with my name and nav links*/
@@ -103,7 +103,7 @@ main {
 
 }
 
-/*  */
+/* formatting for about me section to keep consistent style with other areas. */
 .aboutme {
     display: flex;
     flex-direction: row;
@@ -111,12 +111,6 @@ main {
     width: 100%;
 }
 
-/* .aboutme h2 {
-    width: var(--sidebar);
-    text-align: right;
-    padding: 10px;
-
-} */
 .bio {
     border-left: 3px var(--green) solid;
     padding: 0px 10px;
@@ -130,10 +124,11 @@ main {
     padding: 10px;
     flex: 0 1 300px;
     max-width: 300px;
+    margin: 25px;
   }
 
 .aboutme p {
-    padding: 10px;
+    margin: 25px;
 }
 
 /* styling for projects list */
@@ -142,12 +137,6 @@ main {
     flex-direction: row;
     padding-top: 25px;
 }
-
-/* .projects h2 {
-    width: var(--sidebar);
-    text-align: right;
-    padding: 0px 10px;
-} */
 
 .projects-list {
     flex: 4;
@@ -165,14 +154,50 @@ main {
     border-color: var(--green);
     border-width: 10px;
     padding: 10px;
-    flex: 0 0 300px;
+    flex: 0 0 40%;
     margin: 20px;
+    position: relative;
+  }
+
+  .projectcard:nth-child(1) {
+      flex: 0 0 90%;
+  }
+
+  .projectcard h4 {
+      color: var(--whitetext);
+      background-color: var(--green);
+      width: 33%;
+      bottom: 20px;
+      right: 10px;
+      position: absolute;
   }
 
   .projectcard img {
       width: 100%;
   }
 
+  .contact {
+      display: flex;
+      flex-direction: row;
+      padding-top: 25px;
+      width: 100%;
+  }
+
+  .contact ul {
+      display: flex;
+      flex-direction: row;
+      border-left: 3px var(--green) solid;     
+  }
+
+  .contact li {
+        margin: 25px;
+        background-color: var(--green);
+        color: var(--whitetext);
+        width: 100px;
+        padding: 10px 25px;
+        text-align: center;
+       
+  }
 /* adding responsive elements to adjust content based on screen size */
 @media screen and (max-width: 768px) {
     .header {
@@ -193,13 +218,36 @@ main {
     h3 {
         text-align: center;
     }
-    /* .aboutme h2 {
-        text-align: center;
-    } */
 
     .bio {
         flex-direction: column;
         border-left: 0px;
         align-items: center;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px var(--green) solid;
+    }
+
+    .projects-list{
+        border-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact ul {
+        flex-direction: column;
+        align-items: center;
+        border-left: 0px;
+    }
+    .contact li {
+        margin: 10px;
     }
 }
