@@ -15,6 +15,12 @@
 body {
     background-color: var(--whitebackground);
 }
+/* consistent formatting for headers along side denoting sections */
+h3 {
+    width: var(--sidebar);
+    text-align: right;
+    padding: 10px;    
+}
 
 /* formatting for header with my name and nav links*/
 .header {
@@ -59,18 +65,42 @@ p {
     font-size: 16px;
 }
 
+.ianh h2 {
+    Position: absolute;
+    font-size: 40px;
+    background-color: var(--green);
+    color: var(--whitetext);
+    padding: 20px;
+    margin: 20px;
+
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
 }
-/* adding in a decorative top photo*/
+/* adding in a decorative top photo vanishes in mobile view*/
 .ianh {
     height: 400px;
     width: 100%;
     background-image: url("../Images/traversebay.png");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+/* formatting for subtitle portfolio on styled photo */
+.ianh h2 {
+    Position: absolute;
+    font-size: 40px;
+    background-color: var(--green);
+    color: var(--whitetext);
+    padding: 20px;
+    margin: 20px;
+    bottom: 10px;
+    right: 10px;
+
 }
 
 /*  */
@@ -78,17 +108,32 @@ main {
     display: flex;
     flex-direction: row;
     padding-top: 25px;
+    width: 100%;
 }
 
-.aboutme h2 {
+/* .aboutme h2 {
     width: var(--sidebar);
     text-align: right;
-    padding: 0px 10px;
-}
+    padding: 10px;
 
-.aboutme p {
+} */
+.bio {
     border-left: 3px var(--green) solid;
     padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.aboutme img {
+    border-style: solid;
+    border-color: var(--green);
+    border-width: 10px;
+    padding: 10px;
+    flex: 0 1 300px;
+    max-width: 300px;
+  }
+
+.aboutme p {
+    padding: 10px;
 }
 
 /* styling for projects list */
@@ -98,11 +143,11 @@ main {
     padding-top: 25px;
 }
 
-.projects h2 {
+/* .projects h2 {
     width: var(--sidebar);
     text-align: right;
     padding: 0px 10px;
-}
+} */
 
 .projects-list {
     flex: 4;
@@ -110,7 +155,7 @@ main {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: flex-start;
     border-left: 3px var(--green) solid;
   }
@@ -128,12 +173,33 @@ main {
       width: 100%;
   }
 
-/* adding responsive element to adjust content based on screen size */
+/* adding responsive elements to adjust content based on screen size */
 @media screen and (max-width: 768px) {
     .header {
       flex-direction: column;
+      align-items: center;
     }
+
     .ianh {
         display: none;
+    }
+    
+    .aboutme {
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px var(--green) solid;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    /* .aboutme h2 {
+        text-align: center;
+    } */
+
+    .bio {
+        flex-direction: column;
+        border-left: 0px;
+        align-items: center;
     }
 }
