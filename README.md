@@ -19,13 +19,13 @@ This project was meant to build a professional portfolio that could be shown to 
 
 1. The webpage has a header with my name and a set of navigation links to move directly to the section showing projects and / or the section displaying my contact information.
 
-2. A background image from northern michigan to add pleasant styling and a subtitle labeling this as a portfolio.
+2. A background image from northern Michigan to add pleasant styling and a subtitle labeling this as a portfolio.
 
 3. An about me section with a current, professional photo of me and a short biographical paragraph.  My intention would be to continue adding to this to list specific skills learned and based on career services feedback.
 
 4. A project section showing a list of deployed applications.  As this is still very early in my progress towards becoming a full stack developer, there is only one project and then placeholder images / cards for future projects.  The project cards are formatted such that the first project in the list will be larger than those that follow.  The project cards have been styled such that when the mouse hovers their opacity changes to highlight the section being selected.
 
-5. There is a cont me section at the bottom with links to view my linkedin and GitHub profiles as well as my email.
+5. There is a contact me section at the bottom with links to view my linkedin and GitHub profiles as well as email me.
 
 6. There are media queries present to ensure the design responds to changes in viewport width.  Moving to a vertical format in most sections and hiding the decorative photo at top for easier scrolling.
 
