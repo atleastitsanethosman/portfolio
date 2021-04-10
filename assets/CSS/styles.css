@@ -119,13 +119,14 @@ main {
     padding: 0px 10px;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
 }
 .aboutme img {
     border-style: solid;
     border-color: var(--green);
     border-width: 10px;
     padding: 10px;
-    flex: 0 1 300px;
+    flex: 1 1 300px;
     max-width: 300px;
     margin: 25px;
   }
