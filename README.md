@@ -13,7 +13,7 @@ Project URL: <https://atleastitsanethosman.github.io/portfoliohomework2/><br>
 This project was meant to build a professional portfolio that could be shown to a potential employer so that they can view some examples of the work I am capable of.  The goal being to set up a professional looking webpage with links to sample projects that will allow me to add images and links as I deploy more applications and can continue to add examples to show to a potential employer.  Styled with colors that match well with Michigan State University's school colors as I am attending the Michigan State University Coding Bootcamp.
 
 ## Screenshot of Deployed Application
-![The page includes a header with nav links, a project section, and a contact section with links.](./assets/Images/portfoliodeployedscreenshot.png)
+![The page includes a header with nav links, a project section, and a contact section with links.](./assets/Images/portfolio.gif)
 
 ## Project Elements:<br>
 
@@ -29,3 +29,6 @@ This project was meant to build a professional portfolio that could be shown to 
 
 6. There are media queries present to ensure the design responds to changes in viewport width.  Moving to a vertical format in most sections and hiding the decorative photo at top for easier scrolling.
 
+## License:<br>
+Copyright (c) 2021 Ian Hennessey
+Licensed under the [MIT LICENSE](LICENSE)
