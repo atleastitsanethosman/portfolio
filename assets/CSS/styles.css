@@ -64,6 +64,11 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: var(--whitetext);
+    text-decoration: none;
+}
+
 p {
     font-size: 16px;
 }
@@ -121,6 +126,7 @@ main {
     flex-direction: row;
     align-items: flex-start;
 }
+
 .aboutme img {
     border-style: solid;
     border-color: var(--green);
@@ -133,6 +139,16 @@ main {
 
 .aboutme p {
     margin: 25px;
+}
+
+.aboutme a {
+    margin: 10px;
+    background-color: var(--green);
+    color: var(--whitetext);
+    width: 100px;
+    padding: 25px;
+    text-align: center;
+   
 }
 
 /* styling for projects list */
@@ -164,7 +180,7 @@ main {
     position: relative;
   }
 
-  .projectcard:hover {
+  .projectcard a:hover {
       opacity: 75%;
   }
 
@@ -216,7 +232,7 @@ main {
       border-left: 3px var(--green) solid;     
   }
 
-  .contact li {
+  .contact a {
         margin: 25px;
         background-color: var(--green);
         color: var(--whitetext);
@@ -273,7 +289,7 @@ main {
     }
 
     .projectcard {
-        flex: 0 0 51%;
+        flex: 0 0 81%;
     }
     .contact {
         flex-direction: column;
@@ -285,7 +301,7 @@ main {
         align-items: center;
         border-left: 0px;
     }
-    .contact li {
+    .contact a {
         margin: 10px;
     }
 }
