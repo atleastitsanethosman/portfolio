@@ -199,7 +199,7 @@ main {
       background-color: var(--green);
       width: 75%;
       height: auto;
-      top: 0px;
+      bottom: 0px;
       left: 0px;
       position: absolute;
       padding: 20px;

@@ -1,12 +1,9 @@
-# portfoliohomework2
+# Portfolio
 Portfolio showing deployed applications and projects.
-# Profession Profile Homework Assignment - Homework 2<br>
-## Michigan State University Coding Bootcamp<br>
 
 Project By:<br>
 Ian Hennessey<br>
 GitHub Profile:  <https://github.com/atleastitsanethosman><br>
-Project GitHub Repository: <https://github.com/atleastitsanethosman/portfolio><br>
 Project URL: <https://atleastitsanethosman.github.io/portfolio/><br>
 
 ## Project Description
@@ -23,7 +20,7 @@ This project was meant to build a professional portfolio that could be shown to 
 
 3. An about me section with a current, professional photo of me and a short biographical paragraph.  My intention would be to continue adding to this to list specific skills learned and based on career services feedback.
 
-4. A project section showing a list of deployed applications.  As this is still very early in my progress towards becoming a full stack developer, there is only one project and then placeholder images / cards for future projects.  The project cards are formatted such that the first project in the list will be larger than those that follow.  The project cards have been styled such that when the mouse hovers their opacity changes to highlight the section being selected.
+4. A project section showing a list of deployed applications.  The project cards are formatted such that the first project in the list will be larger than those that follow.  The project cards have been styled such that when the mouse hovers their opacity changes to highlight the section being selected.
 
 5. There is a contact me section at the bottom with links to view my linkedin and GitHub profiles as well as email me.
 
