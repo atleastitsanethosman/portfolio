@@ -197,7 +197,7 @@ main {
   /* formatting the labels on the individual project cards */
   .projectname {
       background-color: var(--green);
-      width: 50%;
+      width: 75%;
       height: auto;
       top: 0px;
       left: 0px;

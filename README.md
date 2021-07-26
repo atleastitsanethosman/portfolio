@@ -6,8 +6,8 @@ Portfolio showing deployed applications and projects.
 Project By:<br>
 Ian Hennessey<br>
 GitHub Profile:  <https://github.com/atleastitsanethosman><br>
-Project GitHub Repository: <https://github.com/atleastitsanethosman/portfoliohomework2><br>
-Project URL: <https://atleastitsanethosman.github.io/portfoliohomework2/><br>
+Project GitHub Repository: <https://github.com/atleastitsanethosman/portfolio><br>
+Project URL: <https://atleastitsanethosman.github.io/portfolio/><br>
 
 ## Project Description
 This project was meant to build a professional portfolio that could be shown to a potential employer so that they can view some examples of the work I am capable of.  The goal being to set up a professional looking webpage with links to sample projects that will allow me to add images and links as I deploy more applications and can continue to add examples to show to a potential employer.  Styled with colors that match well with Michigan State University's school colors as I am attending the Michigan State University Coding Bootcamp.
